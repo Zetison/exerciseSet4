@@ -1,0 +1,3 @@
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build/CMakeFiles/compute_S_MPI.dir
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build/CMakeFiles/compute_S_OpenMP.dir
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build/CMakeFiles/utils.dir

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/compute_S_OpenMP.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+stdint.h
+-
+time.h
+-
+omp.h
+-
+utils.h
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/utils.h
+
+/home/shomec/j/jonvegar/TMA4280/exerciseSet4/utils.h
+stdint.h
+-
+
