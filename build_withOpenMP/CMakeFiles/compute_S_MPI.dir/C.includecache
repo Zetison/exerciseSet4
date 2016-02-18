@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/compute_S_MPI.c
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/compute_S_MPI.c
 stdio.h
 -
 stdlib.h
@@ -16,9 +16,9 @@ stdint.h
 mpi.h
 -
 utils.h
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/utils.h
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/utils.h
 
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/utils.h
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/utils.h
 stdint.h
 -
 

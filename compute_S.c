@@ -11,20 +11,20 @@ int main(int argc, char **argv){
 	}
 
 	int k = atoi(argv[1]);
-	uint64_t i, n = 1 << k;
+	uint64_t n = (uint64_t)1 << k;
 	clock_t start_time, end_time;
 	double total_time;
 	start_time = clock();
 	double *v = malloc(n*sizeof(double));
 
 	//Compute the elements of v
-	for(i = 1; i <= n; i++)
+	for(uint64_t i = 1; i <= n; i++)
 		v[i-1] = 1/(double)(i*i);
 
 	//Compute the partial sum S_n
 	double S_n = 0;
-	for(i = n; i > 0; i--)
-		S_n += v[i-1];
+	for(uint64_t i = n-1; i >= 0; i--)
+		S_n += v[i];
 
 	end_time = clock();
 	total_time = (end_time-start_time)/(double)CLOCKS_PER_SEC;

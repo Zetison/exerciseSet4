@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4
+CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP
+CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP
 
 # Include any dependencies generated for this target.
 include CMakeFiles/compute_S_OpenMP.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/compute_S_OpenMP.dir/flags.make
 
 CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o: CMakeFiles/compute_S_OpenMP.dir/flags.make
 CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o: ../compute_S_OpenMP.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o   -c /home/shomec/j/jonvegar/TMA4280/exerciseSet4/compute_S_OpenMP.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o   -c /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/compute_S_OpenMP.c
 
 CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/shomec/j/jonvegar/TMA4280/exerciseSet4/compute_S_OpenMP.c > CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/compute_S_OpenMP.c > CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.i
 
 CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/shomec/j/jonvegar/TMA4280/exerciseSet4/compute_S_OpenMP.c -o CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/compute_S_OpenMP.c -o CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.s
 
 CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o.requires:
 .PHONY : CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o.requires
@@ -98,6 +98,6 @@ CMakeFiles/compute_S_OpenMP.dir/clean:
 .PHONY : CMakeFiles/compute_S_OpenMP.dir/clean
 
 CMakeFiles/compute_S_OpenMP.dir/depend:
-	cd /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shomec/j/jonvegar/TMA4280/exerciseSet4 /home/shomec/j/jonvegar/TMA4280/exerciseSet4 /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_OpenMP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4 /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4 /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_OpenMP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/compute_S_OpenMP.dir/depend
 

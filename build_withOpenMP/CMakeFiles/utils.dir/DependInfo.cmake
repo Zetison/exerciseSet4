@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/shomec/j/jonvegar/TMA4280/exerciseSet4/printResult.c" "/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir/printResult.c.o"
+  "/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/printResult.c" "/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir/printResult.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

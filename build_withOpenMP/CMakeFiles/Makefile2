@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4
+CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP
+CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP
 
 #=============================================================================
 # Target rules for target CMakeFiles/compute_S.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP
 CMakeFiles/compute_S.dir/all: CMakeFiles/utils.dir/all
 	$(MAKE) -f CMakeFiles/compute_S.dir/build.make CMakeFiles/compute_S.dir/depend
 	$(MAKE) -f CMakeFiles/compute_S.dir/build.make CMakeFiles/compute_S.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles  1
 	@echo "Built target compute_S"
 .PHONY : CMakeFiles/compute_S.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/compute_S.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/compute_S.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compute_S.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 0
 .PHONY : CMakeFiles/compute_S.dir/rule
 
 # Convenience name for target.
@@ -94,7 +94,7 @@ clean: CMakeFiles/compute_S.dir/clean
 CMakeFiles/compute_S_MPI.dir/all: CMakeFiles/utils.dir/all
 	$(MAKE) -f CMakeFiles/compute_S_MPI.dir/build.make CMakeFiles/compute_S_MPI.dir/depend
 	$(MAKE) -f CMakeFiles/compute_S_MPI.dir/build.make CMakeFiles/compute_S_MPI.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles  2
 	@echo "Built target compute_S_MPI"
 .PHONY : CMakeFiles/compute_S_MPI.dir/all
 
@@ -104,9 +104,9 @@ all: CMakeFiles/compute_S_MPI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/compute_S_MPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compute_S_MPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 0
 .PHONY : CMakeFiles/compute_S_MPI.dir/rule
 
 # Convenience name for target.
@@ -129,7 +129,7 @@ clean: CMakeFiles/compute_S_MPI.dir/clean
 CMakeFiles/compute_S_OpenMP.dir/all: CMakeFiles/utils.dir/all
 	$(MAKE) -f CMakeFiles/compute_S_OpenMP.dir/build.make CMakeFiles/compute_S_OpenMP.dir/depend
 	$(MAKE) -f CMakeFiles/compute_S_OpenMP.dir/build.make CMakeFiles/compute_S_OpenMP.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles  3
 	@echo "Built target compute_S_OpenMP"
 .PHONY : CMakeFiles/compute_S_OpenMP.dir/all
 
@@ -139,9 +139,9 @@ all: CMakeFiles/compute_S_OpenMP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/compute_S_OpenMP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/compute_S_OpenMP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 0
 .PHONY : CMakeFiles/compute_S_OpenMP.dir/rule
 
 # Convenience name for target.
@@ -164,7 +164,7 @@ clean: CMakeFiles/compute_S_OpenMP.dir/clean
 CMakeFiles/utils.dir/all:
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/depend
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles  4
 	@echo "Built target utils"
 .PHONY : CMakeFiles/utils.dir/all
 
@@ -174,9 +174,9 @@ all: CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles 0
 .PHONY : CMakeFiles/utils.dir/rule
 
 # Convenience name for target.

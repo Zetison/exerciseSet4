@@ -11,7 +11,7 @@ int main(int argc, char **argv){
 	}
 
 	int k = atoi(argv[1]);
-	uint64_t i, n = 1 << k;
+	uint64_t n = (uint64_t)1 << k;
 	double start_time, end_time;
 	double total_time;
 	
@@ -20,13 +20,13 @@ int main(int argc, char **argv){
 
 	//Compute the elements of v
 	#pragma omp parallel for schedule(static)
-	for(i = 1; i <= n; i++)
+	for(uint64_t i = 1; i <= n; i++)
 		v[i-1] = 1/(double)(i*i);
 
 	//Compute the partial sum S_n
 	double S_n = 0;
 	#pragma omp parallel for reduction(+:S_n)
-	for(i = n; i > 0; i--)
+	for(uint64_t i = n; i > 0; i--)
 		S_n += v[i-1];
 
 	end_time = omp_get_wtime();

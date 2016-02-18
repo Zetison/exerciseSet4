@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4
+CMAKE_SOURCE_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP
+CMAKE_BINARY_DIR = /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP
 
 # Include any dependencies generated for this target.
 include CMakeFiles/utils.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/utils.dir/flags.make
 
 CMakeFiles/utils.dir/printResult.c.o: CMakeFiles/utils.dir/flags.make
 CMakeFiles/utils.dir/printResult.c.o: ../printResult.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/utils.dir/printResult.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/utils.dir/printResult.c.o   -c /home/shomec/j/jonvegar/TMA4280/exerciseSet4/printResult.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/utils.dir/printResult.c.o   -c /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/printResult.c
 
 CMakeFiles/utils.dir/printResult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/utils.dir/printResult.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/shomec/j/jonvegar/TMA4280/exerciseSet4/printResult.c > CMakeFiles/utils.dir/printResult.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/printResult.c > CMakeFiles/utils.dir/printResult.c.i
 
 CMakeFiles/utils.dir/printResult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/utils.dir/printResult.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/shomec/j/jonvegar/TMA4280/exerciseSet4/printResult.c -o CMakeFiles/utils.dir/printResult.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/printResult.c -o CMakeFiles/utils.dir/printResult.c.s
 
 CMakeFiles/utils.dir/printResult.c.o.requires:
 .PHONY : CMakeFiles/utils.dir/printResult.c.o.requires
@@ -98,6 +98,6 @@ CMakeFiles/utils.dir/clean:
 .PHONY : CMakeFiles/utils.dir/clean
 
 CMakeFiles/utils.dir/depend:
-	cd /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shomec/j/jonvegar/TMA4280/exerciseSet4 /home/shomec/j/jonvegar/TMA4280/exerciseSet4 /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4 /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4 /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP /home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/utils.dir/depend
 

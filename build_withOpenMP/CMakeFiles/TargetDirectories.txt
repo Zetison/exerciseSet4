@@ -1,4 +1,4 @@
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S.dir
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_MPI.dir
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_OpenMP.dir
-/home/shomec/j/jonvegar/TMA4280/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S.dir
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_MPI.dir
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/compute_S_OpenMP.dir
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_withOpenMP/CMakeFiles/utils.dir

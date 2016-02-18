@@ -23,10 +23,8 @@ int main(int argc, char **argv){
 	MPI_Status status;
 
 	//Initialize
-	uint64_t i, j;
-	
 	int k = atoi(argv[1]);
-	uint64_t n = 1 << k;
+	uint64_t n = (uint64_t)1 << k;
 	int offset = n%nprocs; // number of elements left over after evenly distribution
 	int np = n/nprocs + (offset > rank ? 1 : 0);
 	int tag = 1;
@@ -37,19 +35,20 @@ int main(int argc, char **argv){
 
 	if(rank == 0){
 		//Compute the elements of v
-		int np2, rank2;
-		for(rank2 = 1; rank2 < nprocs; rank2++){
+		int np2;
+		uint64_t i;
+		for(int rank2 = 1; rank2 < nprocs; rank2++){
 			np2 = n/nprocs + (offset > rank2 ? 1: 0);
-		
+			
 //			#pragma omp parallel for schedule(static)
-			for(j = 0; j < np2; j++){
+			for(uint64_t j = 0; j < np2; j++){
 				i = rank2 + j*nprocs + 1;
 				v_p[j] = 1/(double)(i*i);
 			}
 			MPI_Send(v_p, np2, MPI_DOUBLE, rank2, tag, MPI_COMM_WORLD);
 		}
 //		#pragma omp parallel for schedule(static)
-		for(j = 0; j < np; j++){
+		for(uint64_t j = 0; j < np; j++){
 			i = j*nprocs + 1;
 			v_p[j] = 1/(double)(i*i);
 		}
@@ -59,7 +58,7 @@ int main(int argc, char **argv){
 	//Compute the partial sum S_n
 	double S_n_p = 0;
 //	#pragma omp parallel for reduction(+:S_n_p)
-	for(i = np; i > 0; i--)
+	for(uint64_t i = np; i > 0; i--)
 		S_n_p += v_p[i-1];
 
 	double S_n;
