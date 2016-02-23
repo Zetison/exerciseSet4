@@ -1,5 +1,6 @@
 #include <mpi.h> 	//needed for MPI functions
 #include "utils.h"	//needed for printResult()
+#include <omp.h>	//needed for printResult()
 
 int main(int argc, char **argv){
 	double start_time, end_time, total_time;
@@ -9,6 +10,10 @@ int main(int argc, char **argv){
 	MPI_Init(&argc, &argv);
 	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
+	#pragma omp parallel for
+	for (int i = 0; i < 1; i++)
+		printf("num threads = %d\n", omp_get_num_threads());
 
 	if(argc != 2){
 		if(rank == 0)
@@ -30,10 +35,13 @@ int main(int argc, char **argv){
 	//redundant element on some of the processes in the case where n%procs != 0
 	double *v_p = malloc(np*sizeof(double));
 
+	printf("np = %lld %lld\n", np, n - np);
+
 	if(rank == 0){
 		//Compute the elements of v
 		int np2;
 		for(int rank2 = 1; rank2 < nprocs; rank2++){
+			printf("rnk2 = %d\n", rank2);
 			np2 = n/nprocs + (offset > rank2 ? 1: 0);
 			
 			#pragma omp parallel for schedule(static)
@@ -51,6 +59,8 @@ int main(int argc, char **argv){
 	}else
 		MPI_Recv(v_p, np, MPI_DOUBLE, 0, tag, MPI_COMM_WORLD, &status);
 
+	double mid_time = MPI_Wtime();
+
 	//Compute the partial sum S_n
 	double S_n_p = 0;
 	#pragma omp parallel for reduction(+:S_n_p)
@@ -66,6 +76,8 @@ int main(int argc, char **argv){
 
 	if(rank == 0)
 		printResult(k, S_n, np, total_time);
+
+	printf("rank %d: %f %f %f\n", rank, mid_time-start_time, end_time-mid_time, end_time-start_time);
 
 	MPI_Finalize();
 

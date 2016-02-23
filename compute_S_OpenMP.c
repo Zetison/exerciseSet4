@@ -1,8 +1,5 @@
-#include<stdio.h>	//needed for printf
-#include<stdlib.h>	//needed for malloc(), atoi()
-#include<stdint.h>	//needed for uint64_t
 #include <omp.h> 	//needed for omp_get_wtime()
-#include "utils.h"	//needed for printResult()
+#include "utils.h"	//needed for printResult() and standard libraries
 
 int main(int argc, char **argv){
 	if(argc != 2){
@@ -26,8 +23,8 @@ int main(int argc, char **argv){
 	//Compute the partial sum S_n
 	double S_n = 0;
 	#pragma omp parallel for reduction(+:S_n)
-	for(uint64_t i = n; i > 0; i--)
-		S_n += v[i-1];
+	for(int64_t i = n-1; i >= 0; i--)
+		S_n += v[i];
 
 	end_time = omp_get_wtime();
 	total_time = end_time-start_time;

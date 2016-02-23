@@ -1,6 +1,3 @@
-#include<stdio.h>	//needed for printf
-#include<stdlib.h>	//needed for malloc(), atoi()
-#include<stdint.h>	//needed for uint64_t
 #include<time.h>	//needed for clock(), ...
 #include "utils.h"	//needed for printResult()
 
@@ -23,7 +20,7 @@ int main(int argc, char **argv){
 
 	//Compute the partial sum S_n
 	double S_n = 0;
-	for(uint64_t i = n-1; i >= 0; i--)
+	for(int64_t i = n-1; i >= 0; i--)
 		S_n += v[i];
 
 	end_time = clock();

@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=c99 -fopenmp    CMakeFiles/compute_S_MPI.dir/compute_S_MPI.c.o  -o compute_S_MPI -rdynamic -lmpi -ldl -lhwloc libutils.a 
