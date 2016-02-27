@@ -1,5 +1,5 @@
-#include<time.h>	//needed for clock(), ...
-#include "utils.h"	//needed for printResult()
+#include "utils.h"	//needed for printResult() and standard libraries
+#include<time.h>
 
 int main(int argc, char **argv){
 	if(argc != 2){
@@ -9,10 +9,12 @@ int main(int argc, char **argv){
 
 	int k = atoi(argv[1]);
 	uint64_t n = (uint64_t)1 << k;
-	clock_t start_time, end_time;
+	double start_time, end_time;
 	double total_time;
-	start_time = clock();
+	
 	double *v = malloc(n*sizeof(double));
+	
+	start_time = clock();
 
 	//Compute the elements of v
 	for(uint64_t i = 1; i <= n; i++)

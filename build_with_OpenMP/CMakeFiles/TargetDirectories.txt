@@ -1,3 +1,0 @@
-/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_with_OpenMP/CMakeFiles/compute_S.dir
-/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_with_OpenMP/CMakeFiles/compute_S_MPI.dir
-/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/build_with_OpenMP/CMakeFiles/compute_S_OpenMP.dir

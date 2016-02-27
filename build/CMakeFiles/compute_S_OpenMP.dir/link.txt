@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -fopenmp    CMakeFiles/compute_S_OpenMP.dir/compute_S_OpenMP.c.o  -o compute_S_OpenMP -rdynamic 

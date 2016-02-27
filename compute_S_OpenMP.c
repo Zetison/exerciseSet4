@@ -12,8 +12,9 @@ int main(int argc, char **argv){
 	double start_time, end_time;
 	double total_time;
 	
-	start_time = omp_get_wtime();
 	double *v = malloc(n*sizeof(double));
+	
+	start_time = omp_get_wtime();
 
 	//Compute the elements of v
 	#pragma omp parallel for schedule(static)

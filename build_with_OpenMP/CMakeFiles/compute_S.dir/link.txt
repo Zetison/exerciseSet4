@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=c99    CMakeFiles/compute_S.dir/compute_S.c.o  -o compute_S -rdynamic 

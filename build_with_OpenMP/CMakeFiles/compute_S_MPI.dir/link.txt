@@ -1,1 +1,0 @@
-/usr/bin/cc  -std=c99    CMakeFiles/compute_S_MPI.dir/compute_S_MPI.c.o  -o compute_S_MPI -rdynamic -lmpi_cxx -lmpi -ldl -lhwloc -lmpi -ldl -lhwloc 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/compute_S.c
+utils.h
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/utils.h
+time.h
+-
+
+/home/shomec/j/jonvegar/Dropbox/GitHub/exerciseSet4/utils.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+

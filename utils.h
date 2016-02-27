@@ -4,6 +4,7 @@
 #include<stdio.h>	//needed for printf
 #include<stdlib.h>	//needed for malloc(), atoi()
 #include<stdint.h>	//needed for uint64_t
+#include<math.h>	//needed for fabs()
 
 const double S = 1.6449340668482264364724151666; // S = pi^2/6
 

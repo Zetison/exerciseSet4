@@ -23,7 +23,7 @@ int main(int argc, char **argv){
 	int k = atoi(argv[1]);
 	uint64_t n = (uint64_t)1 << k;
 	int offset = n%nprocs; // number of elements left over after evenly distribution
-	int np = n/nprocs + (offset > rank ? 1 : 0);
+	uint64_t np = n/nprocs + (offset > rank ? 1 : 0);
 	int tag = 1;
 	
 	//Allocate partial vector for each process. Note that this result in one
@@ -32,9 +32,9 @@ int main(int argc, char **argv){
 
 	if(rank == 0){
 		//Compute the elements of v
-		int np2;
+		uint64_t np2;
 		for(int rank2 = 1; rank2 < nprocs; rank2++){
-			np2 = n/nprocs + (offset > rank2 ? 1: 0);
+			np2 = n/nprocs + (offset > rank2 ? 1 : 0);
 			
 			#pragma omp parallel for schedule(static)
 			for(uint64_t j = 0; j < np2; j++){
